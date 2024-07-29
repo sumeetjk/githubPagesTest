@@ -1,0 +1,55 @@
+﻿body {
+    background-image: linear-gradient(#CBC3E3, lavender);
+}
+
+.box-area {
+    width: 58.125rem;
+}
+
+.input-group-text {
+    padding: 0;
+    width: 2.9rem;
+    height: 100%;
+}
+
+.login-page-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.left-box {
+    background: lavender;
+}
+
+.right-box {
+    padding: 40px 30px 40px 40px;
+}
+
+::placeholder {
+    font-size: 1rem;
+}
+
+#LoginButton {
+    background-color: darkslateblue;
+    border-color: indigo;
+}
+
+#LoginButton:hover {
+    background-color: rebeccapurple;
+    border-color: rebeccapurple;
+}
+
+@media only screen and (max-width: 768px) {
+    .box-area {
+        margin: 0 10px;
+    }
+
+    .left-box {
+        height: 0;
+        overflow: hidden;
+    }
+
+    .right-box {
+        padding: 20px;
+    }
+}
